@@ -1,0 +1,47 @@
+.searchBar {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 3rem;
+  flex-direction: column;
+}
+
+.searchBar__logo {
+  object-fit: contain;
+}
+
+.searchBar__inputBox {
+  display: flex;
+  margin: auto;
+  border: 1px solid lightgray;
+  width: 90%;
+  padding: 10px;
+  border-radius: 999px;
+  margin-top: 10px;
+  max-width: 700px;
+}
+.searchBar__inputBox > form {
+  flex: 1;
+  display: flex;
+}
+form > button {
+  display: none;
+}
+.searchBar__inputBox > form > input {
+  flex: 1;
+  padding: 2px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.searchBar__buttons {
+  margin: auto;
+  margin-top: 15px;
+}
+.searchBar__button {
+  background-color: #f8f8f8 !important;
+  margin-left: 1rem !important;
+  padding: 10px !important;
+  text-transform: capitalize !important;
+}
